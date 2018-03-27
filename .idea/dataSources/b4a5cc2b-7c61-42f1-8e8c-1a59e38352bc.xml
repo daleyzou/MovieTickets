@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - movieticket@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="movieticket">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="anima"/>
+    <schema id="3" name="chat"/>
+    <schema id="4" name="clothshop"/>
+    <schema id="5" name="db_database08"/>
+    <schema id="6" name="db_student"/>
+    <schema id="7" name="dc"/>
+    <schema id="8" name="exp3"/>
+    <schema id="9" name="exp4"/>
+    <schema id="10" name="information_schema"/>
+    <schema id="11" name="lawsite"/>
+    <schema id="12" name="loveheart"/>
+    <schema id="13" name="mybbs"/>
+    <schema id="14" name="mysql"/>
+    <schema id="15" name="myweb"/>
+    <schema id="16" name="officetest"/>
+    <schema id="17" name="performance_schema"/>
+    <schema id="18" name="salarydb"/>
+    <schema id="19" name="spj"/>
+    <schema id="20" name="sql_work"/>
+    <schema id="21" name="svily"/>
+    <schema id="22" name="test"/>
+    <schema id="23" name="vendmachdb"/>
+    <schema id="24" name="zhaobiao"/>
+    <table id="25" parent="1" name="user"/>
+    <column id="26" parent="25" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="27" parent="25" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="28" parent="25" name="password">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="29" parent="25" name="sex">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="30" parent="25" name="phone">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="31" parent="25" name="age">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="32" parent="25" name="qq">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="33" parent="25" name="email">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="34" parent="25" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
